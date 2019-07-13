@@ -17,7 +17,8 @@ client.on('message', msg => {
                 '!vlenks\n' +
                 '!timba\n' +
                 '!jeme\n' +
-                '!sant\n'
+                '!sant\n' +
+                '!estebo\n'
             );
             break;
         case '!akinn':
@@ -38,6 +39,8 @@ client.on('message', msg => {
         case '!sant':
             msg.channel.send('menino neutro...');
             break;
+        case '!estebo':
+            msg.channel.send('Fiz uma promessa pra mim mesmo, nunca mais comer torresmo.')
         default:
             console.log('oieee');
     }
